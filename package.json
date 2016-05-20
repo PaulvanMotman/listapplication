@@ -1,0 +1,26 @@
+{
+  "name": "listapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulvanMotman/listapplication.git"
+  },
+  "author": "Paul",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulvanMotman/listapplication/issues"
+  },
+  "homepage": "https://github.com/PaulvanMotman/listapplication#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  }
+}
