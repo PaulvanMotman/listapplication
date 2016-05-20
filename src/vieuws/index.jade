@@ -10,6 +10,8 @@ html(lang='en')
 			input(type='text', placeholder='quote', name='quote')
 			button(type='submit') Submit
 		img(src="starwars.jpg" style="height: 200px; width: 350px; margin-top: 20px;")
-		each user in quotes
-			p="A dude who go's by the name of " + user.name + " said the following wise words:"
-			p=user.quote
+		ul
+			each user in quotes
+				li="A dude who go's by the name of " + user.name + " said the following wise words:"
+				li=user.quote
+				br
