@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		title MY APP
+	body
+		h1 AWESOME STAR WARS QUOTES APP
+		img(src="starwars2.jpg" style="height: 200px; width: 350px; margin-top: 20px;")
+		ul
+			each user in input
+				li="A dude who go's by the name of " + user.title + " said the following wise words:"
+				li=user.body
+				br
+		a(href="http://localhost:3000") Go back to form!
