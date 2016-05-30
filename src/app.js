@@ -1,6 +1,5 @@
 const express = require('express');
 const bodyParser= require('body-parser')
-const MongoClient = require('mongodb').MongoClient
 const app = express();
 
 var query = require('../resources/js/query_db');
