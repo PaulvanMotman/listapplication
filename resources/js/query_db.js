@@ -1,6 +1,7 @@
 // Requiring postgres
 var pg = require('pg');
 // Store the connectionstring in a simple variable
+// 'postgres://username:@servername:port/dabaseName'
 var connectionString = "postgres://Paul:postgres@localhost/bulletinboard";
 
 // export function to communicate with postgres
